@@ -1,0 +1,291 @@
+:root {
+    --primary: #754AC7;
+    --seconday: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#evento {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/005.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
+
+#div h2, #div .evento-data {
+    color: var(--primary);
+}
+
+#div h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#div .sobre-evento {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#div p {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+#div .evento-data {
+    font-weight: bold;
+}
+
+#formulario {
+    background-color: var(--seconday);
+    padding: 2em;
+    max-width: 22%;
+  }
+
+  #formulario p {
+    font-size: 1.5em;
+    color: var(--text-secondary);
+    margin-bottom: 1em;
+  }
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-grupo label {
+    color: var(--text-tertiary);
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+.form-grupo input, .form-grupo select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: var(--text-color);
+    width: 100%;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 19px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+#titulo-beneficios {
+    background-color: var(--seconday);
+    text-align: center;   
+    padding: 2em;
+    font-weight: 500;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.beneficio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+}
+
+.beneficio .beneficio-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#beneficio-1 {
+    background-image: url("../images/007.jpg");
+}
+
+#beneficio-2 {
+    background-image: url("../images/008.jpg");
+}
+
+#beneficio-3 {
+    background-image: url("../images/009.jpg");
+}
+
+
+
+#localizacao {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/001.jpg");
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 3em;
+}
+  
+#endereco, #sobre-local {
+    max-width: 30%;
+}
+  
+#endereco {
+    display: flex;
+}
+  
+#endereco i {
+    color: var(--primary);
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+  
+#endereco-detalhes {
+    text-align: center;
+    font-size: 1.3em;
+}
+  
+#sobre-local h3 {
+    color: var(--primary);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+  
+#sobre-local p {
+    line-height: 1.5em;
+}
+
+
+
+#detalhes {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detalhe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detalhe img {
+    width: 50%;
+}
+
+.detalhe h3 {
+    margin-bottom: 1em;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+#detalhe-1 h3 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#detalhe-2 h3 {
+    font-size: 3em;
+}
+
+.detalhe-descricao {
+    width: 100%;
+    padding-left: 2em;
+}
+
+#detalhe-3 .detalhe-descricao {
+    justify-self: flex-start;
+}
+
+.detalhe-descricao ul {
+    list-style-position: inside;
+}
+
+.detalhe-descricao ul li {
+    margin-bottom: 0.4em;
+}
+
+.detalhe-descricao ul li:last-child {
+    font-weight: bold;
+}
+
+
+#final {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/006.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#final h3 {
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#final .btn {
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+
+#rodape {
+    text-align: center;
+    color: var(--text-tertiary);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rodape h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+#rodape p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+#rodape span {
+    font-weight: bold;
+}

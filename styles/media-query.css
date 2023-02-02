@@ -1,0 +1,73 @@
+@media screen and (max-width: 540px) {
+
+    #evento {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #div {
+        padding: 2em;
+    }
+
+    #div h2 {
+        margin-bottom: 0.5em;
+    }
+
+    #formulario {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .beneficio {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #localizacao {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #endereco {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #endereco i {
+        margin: 0.3em 0;
+    }
+
+    #sobre-local {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .detalhe {
+        flex-direction: column;
+        margin-bottom: 0.5em;
+        gap: 0;
+    }
+
+    .detalhe img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    .detalhe-descricao {
+        padding: 0;
+    }
+
+    #final .btn {
+        width: 80%;
+    }
+}
